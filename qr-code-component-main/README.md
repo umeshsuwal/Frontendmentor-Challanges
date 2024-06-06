@@ -28,23 +28,9 @@ Rather than complicate this with using a framework, I felt using HTML and CSS on
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
-
-### Continued development
-
-I'm not entirely sure why
-
-```css
-.card {
-  position: absolute;
-  top: 25%;
-}
-```
-
-in ![](css/styles.css) (line 15, 16) worked - I was anticipating 50% to move to the centre of the page.
 
 ## Author
 
-- GitHub - [valleyman89](https://github.com/valleyman89)
-- Frontend Mentor - [@valleym89](https://www.frontendmentor.io/profile/valleyman89)
+- GitHub - [umeshsuwal](https://github.com/umeshsuwal)
+- Frontend Mentor - [@umeshsuwal](https://www.frontendmentor.io/profile/umeshsuwal)
