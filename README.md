@@ -1,3 +1,5 @@
+<html>
+  <head><title>Frontend Mentor Challenges</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
@@ -51,9 +53,13 @@ a:hover{
     color: red;
 }
 </style>
+</head>
+<body>
 <div class="container">
         <h2><q>Frontendmentor Challanges</q></h2>
         <ul>
             <li><a href="Project 1/index.html">Internet Status Checker</a></li>
         </ul>
     </div>
+</body>
+</html>
