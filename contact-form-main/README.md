@@ -32,5 +32,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/contact-form-main] (https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/contact-form-main)
-- Live Site URL: [https://umeshsuwal.github.io/Frontendmentor-Challanges/contact-form-main] (https://umeshsuwal.github.io/Frontendmentor-Challanges/contact-form-main/)
+- Solution URL: [https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/contact-form-main](https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/contact-form-main)
+- Live Site URL: [https://umeshsuwal.github.io/Frontendmentor-Challanges/contact-form-main](https://umeshsuwal.github.io/Frontendmentor-Challanges/contact-form-main/)
+
+## Author
+
+- GitHub - [umeshsuwal](https://github.com/umeshsuwal)
+- Frontend Mentor - [@umeshsuwal](https://www.frontendmentor.io/profile/umeshsuwal)
