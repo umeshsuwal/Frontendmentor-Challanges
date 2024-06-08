@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+
+    --Blue: hsl(228, 45%, 44%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+
+.card {
+    background-color: var(--White);
+    border-color: var(--Black);
+    max-width: 386px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 var(--Black);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    line-height: 150%;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .card:hover{
+    box-shadow: 16px 16px 0 var(--Black);
+  }
+
+  .illustration img {
+    display: block;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .card-content {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .tag span {
+    font-weight: 800;
+    background-color: var(--Yellow);
+    max-width: fit-content;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+  }
+
+  .date span {
+    font-size: 14px;
+  }
+
+  .card-header span {
+    font-weight: 800;
+    font-size: 24px;
+    transition: color 0.15s ease;
+  }
+
+  .card-header:hover {
+    color: var(--Yellow);
+    cursor:pointer;
+  }
+
+  .card-body {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--Grey);
+  }
+
+  .author {
+    font-weight: 800;
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+
+  .author img {
+    max-width: 32px;
+    max-height: 32px;
+    padding-right: 12px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .attribution {
+    font-size: 16px;
+    text-align: center;
+  }
+  .attribution a {
+    color: var(--Blue);
+  }
