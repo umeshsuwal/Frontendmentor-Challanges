@@ -27,8 +27,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/blog-preview-card-main](https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/blog-preview-card-main)
-- Live Site URL: [https://umeshsuwal.github.io/Frontendmentor-Challanges/blog-preview-card-main/](https://umeshsuwal.github.io/Frontendmentor-Challanges/blog-preview-card-main/)
+- Solution URL: [https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/recipe-page-main](https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/recipe-page-main)
+- Live Site URL: [https://umeshsuwal.github.io/Frontendmentor-Challanges/recipe-page-main/](https://umeshsuwal.github.io/Frontendmentor-Challanges/recipe-page-main/)
 
 ## Author
 
