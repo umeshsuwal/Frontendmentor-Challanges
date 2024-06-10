@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+
+    --Purple: hsl(280.9, 83%, 53.9%);
+    --Blue: hsl(228, 45%, 44%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    color: var(--Dark-purple);
+    font-size: 16px;
+  }
+
+  
+ main {
+    min-height: 100vh;
+    background-image: url(../images/background-pattern-desktop.svg);
+    background-color: var(--Light-pink);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 3rem 0;
+    align-items: center;
+  }
+  
+  .faq-card { 
+    background: var(--White);
+    width: clamp(300px, 85%, 550px);
+    margin: auto;
+    padding: 0 2rem 0.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 4px 2rem rgba(124, 124, 124, 0.25);
+  }
+  
+  .faq-card .title {
+    padding-top: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .faq-card .title::before {
+    content: url('../images/icon-star.svg');
+    width: 0.7em;
+    margin-right: 1.1rem;
+  }
+  
+  .faq-card details {
+    margin: 1rem 0;
+  }
+  
+  .faq-card summary {
+    padding: 0.5rem;
+    list-style: none;
+    font-weight: 600;
+    color: var(--Dark-purple);
+    cursor: pointer;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-card summary:is(:focus, :hover) {
+    color: var(--Purple);
+  }
+  
+  .faq-card summary::after {
+    content: url('../images/icon-plus.svg');
+    width: 1.7rem;
+    margin-left: 1.8rem;
+    flex-shrink: 0;
+  }
+  
+  .faq-card details p {
+    padding: 0.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--Grayish-purple);
+  }
+  
+  .faq-card details[open] summary {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .faq-card details[open] summary::after {
+    content: url('../images/icon-minus.svg');
+  }
+  
+  @media (max-width: 630px) {
+    #faq {
+      background-image: url(../images/background-pattern-mobile.svg);
+      padding: 2rem 0;
+    }
+  
+    .faq-card {
+      padding-inline: 1.8rem;
+    }
+  
+    .faq-card .title {
+      font-size: 2.5rem;
+    }
+  }
+
+  .attribution {
+    font-size: 16px;
+    text-align: center;
+  }
+  .attribution a {
+    color: var(--Blue);
+    text-decoration: none;
+  }
