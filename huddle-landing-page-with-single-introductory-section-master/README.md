@@ -23,9 +23,9 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Screenshot
 
-![Desktop View]<br>(./src/design/desktopview.png)<br>
-![Mobile View]<br>(./src/design/mobileview.png)<br>
-![Active View]<br>(./src/design/activeview.png)
+![Desktop View](./src/design/desktopview.png)<br>
+![Mobile View](./src/design/mobileview.png)<br>
+![Active View](./src/design/activeview.png)
 
 ### Links
 
