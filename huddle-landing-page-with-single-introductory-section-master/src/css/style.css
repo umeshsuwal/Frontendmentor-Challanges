@@ -1,0 +1,163 @@
+:root {
+    --violet: #674baf;
+    --soft-magenta: #e882e8;
+    --attribution: hsl(192, 28%, 66%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url(../src/images/bg-desktop.svg);
+    background-size: cover;
+    background-color: var(--violet);
+    height: 100vh;
+    padding: 40px 60px 20px;
+    position: relative;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 120px;
+}
+
+section img {
+    width: auto;
+}
+
+section h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+section p {
+    color: #d9cde2;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.7;
+    margin: 20px 0 25px;
+}
+
+section .desc {
+    height: 440px;
+}
+
+section button {
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: var(--violet);
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    width: 250px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .6)
+}
+
+section button:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
+.icons {
+    position: relative;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    padding: 26px;
+    height: 30px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icons i:hover {
+    color: #ff50c6;
+    border-color: #ff50c6;
+}
+
+.attribution { 
+    margin: 20px;
+    font-size: 11px; 
+    text-align: center;
+    color: white; 
+}
+.attribution a {
+    color: var(--attribution);
+}
+@media (max-width: 375px) {
+    body {
+        height: auto;
+        background-image: url(../src/images/bg-mobile.svg);
+        padding: 40px;
+    }
+    header img {
+        max-width: 150px;
+    }
+    section {
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    section .desc {
+        height: auto;
+        text-align: center;
+    }
+    section button {
+        font-size: 16px;
+        width: 100%;
+        display: block;
+        padding: 15px 0;
+    }
+    section .image img {
+        max-width: 100%;
+    }
+    section h1 {
+        font-size: 26px;
+    }
+    section p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .icons {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        margin: 60px auto 0;
+        justify-content: space-around;
+        max-width: 165px;
+    }
+    .icons i {
+        margin: 0;
+        font-size: 17px;
+        width: 27px;
+        padding: 20px;
+    }
+}
