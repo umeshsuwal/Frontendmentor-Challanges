@@ -22,9 +22,9 @@ This is a solution to the [Huddle landing page with single introductory section 
 - CSS Grid
 
 ### Screenshot
-- Desktop View: ![Desktop View](./src/design/desktopview.png)<br>
-- Mobile View : ![Mobile View](./src/design/mobileview.png)<br>
-- Active View : ![Active View](./src/design/activeview.png)
+- Desktop View:<br> ![Desktop View](./src/design/desktopview.png)<br>
+- Mobile View :<br> ![Mobile View](./src/design/mobileview.png)<br>
+- Active View :<br> ![Active View](./src/design/activeview.png)
 
 ### Links
 
