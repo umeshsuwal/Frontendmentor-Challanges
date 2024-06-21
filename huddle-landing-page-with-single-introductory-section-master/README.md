@@ -29,8 +29,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/recipe-page-main](https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [https://umeshsuwal.github.io/Frontendmentor-Challanges/recipe-page-main/](https://umeshsuwal.github.io/Frontendmentor-Challanges/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: [https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/huddle-landing-page-with-single-introductory-section-master](https://github.com/umeshsuwal/Frontendmentor-Challanges/tree/main/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [https://umeshsuwal.github.io/Frontendmentor-Challanges/huddle-landing-page-with-single-introductory-section-master/](https://umeshsuwal.github.io/Frontendmentor-Challanges/huddle-landing-page-with-single-introductory-section-master/)
 
 ## Author
 
